@@ -1,31 +1,35 @@
-# Dungeon-RPG-textbased-game in Python
+# Dungeon-RPG-Textbased-Game
 
-Game Structutre :
+A terminal-based Dungeon RPG game built with Python.
 
-main
-  │
-  └── Game()
+## Game Structure
+
+```text
+main()
+│
+└── Game()
+    │
+    └── start()
         │
-        └── start()
-             │
-             └── main_menu()
-                    │
-                    ├── new_game()
-                    │      │
-                    │      └── game_loop()
-                    │             │
-                    │             ├── explore()
-                    │             │     └── events()
-                    │             │           ├── battle()
-                    │             │           ├── treasure
-                    │             │           ├── trap
-                    │             │           ├── potion
-                    │             │           └── nothing
-                    │             │
-                    │             ├── player stats
-                    │             ├── inventory
-                    │             └── save
-                    │
-                    ├── load_game()
-                    │
-                    └── exit
+        └── main_menu()
+            │
+            ├── new_game()
+            │   │
+            │   └── game_loop()
+            │       │
+            │       ├── explore()
+            │       │   └── events()
+            │       │       ├── battle()
+            │       │       ├── treasure
+            │       │       ├── trap
+            │       │       ├── potion
+            │       │       └── nothing
+            │       │
+            │       ├── player stats
+            │       ├── inventory
+            │       └── save game
+            │
+            ├── load_game()
+            │
+            └── exit
+```
