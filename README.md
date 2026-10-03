@@ -2,6 +2,12 @@
 
 A terminal-based Dungeon RPG game built with Python.
 
+## Web UI
+
+I also turned the game into a web-based UI using **Lovable**.
+
+🎮 **[Play the Web Version](https://terminal-to-triumph.lovable.app/)**
+
 ## Game Structure
 
 ```text
